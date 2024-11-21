@@ -1,0 +1,20 @@
+Първо си създаваме тестови документи със .sql extention.
+SOURCE pathToTheFile.sql
+
+Първо си сиздаваме база от данни IzbiraemaTask
+
+След това проверявам ако всичко е наред с тези комадни 
+SHOW TABLES;
+DESCRIBE employees;
+
+След като се уверим че всичко е създадено и тръгва въвеждаме данните.
+
+И се уверих че всичко е вкарнато;
+SELECT * FROM employees;
+
+след като се уверих че база ми от данни е пълна и работи ръннах query-to което професора ни даде
+
+създадвам нови таблици със partitions и insertvam всички данни от salaries to salaries2
+INSERT INTO salaries2 SELECT * FROM salaries;
+
+И можем да видим разликата между таблиците със и без partition
